@@ -1,0 +1,138 @@
+#menu {
+    background-color: #688bac;
+    height: 50px;
+    color: white;
+}
+#menutable{
+    margin-left: 884px;
+    font-size: larger;
+    border-collapse:separate;
+    border-spacing:20px 13px;
+}
+#menutable a{
+    text-decoration: none;
+    position: relative;
+    color: white;
+    font-weight: bold;
+
+}
+#menutable a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    position: absolute;
+    bottom:-5px;
+    left:50%;
+    transform: translateX(-50%);
+    background: white;
+    transition: width 0.3s;
+}
+#menutable a:hover::after{
+    width: 50%;
+}
+.back{
+    background-color: #688bac;
+    height: 100vh;
+    border-top: white solid 1px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.back #first{
+    width: 200px;
+    height: 200px;
+    margin-top: -60px;
+}
+.back #second{
+    width: 200px;
+    height: 200px;
+    margin-top: -60px;
+}
+.back #third{
+    width: 200px;
+    height: 200px;
+    margin-left: -200px;
+    margin-top: -60px;
+}
+.back #fourth{
+    width: 200px;
+    height: 200px;
+    margin-top: 4px;
+}
+.back #fifth{
+    width: 200px;
+    height: 200px;
+    margin-top: 4px;
+}
+.back #second2{
+    width: 200px;
+    height: 200px;
+    margin-top: -60px;
+    margin-left: -90px;
+}
+.back #first2{
+    width: 200px;
+    height: 200px;
+    margin-top: -60px;
+    margin-left: -130px;
+}
+#video {
+    margin-top: -500px;
+    margin-left: 110px;
+    position: relative;
+    padding-top: 60px;
+}
+#dvete{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap:130px;
+}
+#form{
+    margin-top: -520px;
+}
+input{
+    margin:10px;
+    padding: 10px;
+    width: 70%;
+    background-color: rgba(255,192,203,0.7);
+    color: white;
+    border: none;
+    outline: none;
+}
+input::placeholder{
+    color: white;
+}
+textarea{
+    margin:10px;
+    padding: 10px;
+    width: 70%;
+    background-color: rgba(255,192,203,0.7);
+    color: white;
+    border: none;
+    outline: none;
+}
+textarea::placeholder{
+    color: white;
+}
+.submit{
+    width: 40%;
+    background:none;
+    padding: 4px;
+    outline: none;
+    font-size: 13px;
+    font-weight: bold;
+    height: 33px;
+    letter-spacing: 2px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 3%;
+    border: 2px solid white;
+    color: white;
+}
+#h2{
+    margin-left: 10px;
+    color: white;
+}
+#h4{
+    margin-top: -4px;
+    color: white;
+}

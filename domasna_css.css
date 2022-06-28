@@ -1,0 +1,119 @@
+.image1{
+    width: 1000px;
+    height: 800px;
+    opacity: 0.9;
+    background-size: cover;
+}
+#background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #688bac;
+    border: white solid 1px;
+}
+#menu {
+    background-color: #688bac;
+    height: 50px;
+    color: white;
+}
+#menutable{
+    margin-left: 884px;
+    font-size: larger;
+    border-collapse:separate;
+    border-spacing:20px 13px;
+}
+#menutable a{
+    text-decoration: none;
+    position: relative;
+    color: white;
+    font-weight: bold;
+
+}
+#menutable a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    position: absolute;
+    bottom:-5px;
+    left:50%;
+    transform: translateX(-50%);
+    background: white;
+    transition: width 0.3s;
+}
+#menutable a:hover::after{
+    width: 50%;
+}
+.top-left {
+    position: absolute;
+    top: 100px;
+    left: 22%;
+    font-size: 90px;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    background-image: url("back.png");
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+@keyframes back {
+    100%{
+        background-position: 2000px 0;
+    }
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: pink;
+    opacity: 0.7;
+    animation-delay: 0.3s;
+    animation-direction: reverse;
+    text-align: justify;
+    padding: 0px 9px;
+    width: 55%;
+    font-size: large;
+    margin-top: 3%;
+    border-radius: 25px;
+}
+#vodnic{
+    position: absolute;
+    top: 90%;
+    left: 23%;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+#matka{
+    position: absolute;
+    top: 77%;
+    left: 65%;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+#kara{
+    position: absolute;
+    top: 85%;
+    left: 45%;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+#mav{
+    position: absolute;
+    top: 85%;
+    left: 83%;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+#pelister{
+    position: absolute;
+    top: 80%;
+    left: 15%;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
